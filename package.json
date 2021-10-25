@@ -5,6 +5,8 @@
   "license": "MIT",
   "author": "Hamza Nazli <chemhamza@gmail.com>",
   "scripts": {
+    "clean": "rm -rf docs",
+    "dev": "parcel serve index.html --out-dir ./docs",
     "build": "rm -rf docs && parcel build index.html 404.html --out-dir docs"
   },
   "devDependencies": {
