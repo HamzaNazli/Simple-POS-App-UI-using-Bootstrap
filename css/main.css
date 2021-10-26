@@ -23,7 +23,7 @@ body{
   display: none !important;
 }
 
-@media all and (max-width:600px){
+@media all and (max-width:720px){
   .sidebar-with_content{
     display: none !important
   }
@@ -37,3 +37,12 @@ body{
   }
 
 }
+
+
+.b-divider {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+  background-color: #525252;
+}
+

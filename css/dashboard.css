@@ -1,0 +1,13 @@
+.card-body .fas{
+    font-size: 2.5rem;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    
+    padding-right: 20px;
+    opacity: 0.4;
+}
+
+.card{
+    --bs-bg-opacity: .75;
+  }
