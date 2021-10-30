@@ -1,0 +1,13 @@
+.card{
+    --bs-bg-opacity: .25; 
+  }
+  
+input:focus{
+    box-shadow: none !important;
+    border-color: white !important;
+}
+
+input[type="text"], .input-group-text{
+    background-color: #525252 !important;
+}
+

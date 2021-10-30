@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/manage-items.css">
 
   <meta name="theme-color" content="#fafafa">
 
@@ -21,6 +22,7 @@
 </head>
 
 <body>
+  <div class="d-flex ">
   <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark sidebar-with_content" style="width: 240px; height: 100vh;">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
       <i class="fab fa-opencart"></i>      
@@ -61,7 +63,7 @@
     </ul>
   </div>
 
-  <div class="d-flex flex-column flex-shrink-0 bg-dark sidebar-without_content" style="width: 4.5rem; height: 100vh;">
+  <div class="d-flex flex-column flex-shrink-0 bg-dark sidebar-without_content " style="width: 4.5rem; height: 100vh;">
     <a href="/" class="d-block p-3 link-dark text-decoration-none" title="POS SYSTEM" data-bs-toggle="tooltip" data-bs-placement="right">
       <i class="fab fa-opencart"></i>
       <span class="visually-hidden">Icon-only</span>
@@ -95,7 +97,268 @@
     </ul>
   </div>
 
-  <script src="js/main.js"></script>
+  <div class="b-divider"></div>
+  <div class="col-md-8 ms-sm-auto col-lg-9 px-md-4 align-items-center ">
+    <div class="random"></div>
+    <div class="container">
+
+      <div class="rain">
+        <div class="drop"></div>
+        <div class="waves">
+          <div></div>
+          <div></div>
+        </div>
+        <div class="splash"></div>
+        <div class="particles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    
+      <div class="rain">
+        <div class="drop"></div>
+        <div class="waves">
+          <div></div>
+          <div></div>
+        </div>
+        <div class="splash"></div>
+        <div class="particles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    
+      <div class="rain">
+        <div class="drop"></div>
+        <div class="waves">
+          <div></div>
+          <div></div>
+        </div>
+        <div class="splash"></div>
+        <div class="particles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    
+      <div class="rain">
+        <div class="drop"></div>
+        <div class="waves">
+          <div></div>
+          <div></div>
+        </div>
+        <div class="splash"></div>
+        <div class="particles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    
+      <div class="rain">
+        <div class="drop"></div>
+        <div class="waves">
+          <div></div>
+          <div></div>
+        </div>
+        <div class="splash"></div>
+        <div class="particles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    
+      <div class="rain">
+        <div class="drop"></div>
+        <div class="waves">
+          <div></div>
+          <div></div>
+        </div>
+        <div class="splash"></div>
+        <div class="particles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    
+      <div class="rain">
+        <div class="drop"></div>
+        <div class="waves">
+          <div></div>
+          <div></div>
+        </div>
+        <div class="splash"></div>
+        <div class="particles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    
+      <div class="rain">
+        <div class="drop"></div>
+        <div class="waves">
+          <div></div>
+          <div></div>
+        </div>
+        <div class="splash"></div>
+        <div class="particles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    
+      <div class="rain">
+        <div class="drop"></div>
+        <div class="waves">
+          <div></div>
+          <div></div>
+        </div>
+        <div class="splash"></div>
+        <div class="particles">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+    
+    </div>
+    <div
+        class="text-white pt-3 pb-2 mb-3 border-bottom">
+        <h1>Manage Items</h1>
+    </div>
+    <form>
+    <div class="row ">
+      <div class="col-xl-5 col-12">
+        <div class="card text-white bg-dark mb-3">
+          <div class="card-header fs-4 ">Items Information</div>
+          <form>
+          <div class="card-body">
+            <div class="mb-2">
+              <label for="txtId" class="form-label">Item Code</label>
+              <input id="txtId" class="form-control form-control-sm bg-dark text-white" type="text" placeholder="Eg. C001"
+                  aria-label="default input example">
+          </div>
+          <div class="mb-2">
+            <label for="txtId" class="form-label">Item Description</label>
+            <input id="txtId" class="form-control form-control-sm bg-dark text-white" type="text" placeholder="Eg. C001"
+                aria-label="default input example">
+          </div>
+          <div class="mb-2">
+            <label for="txtId" class="form-label">Unit Price</label>
+            <div class="input-group input-group-sm ">
+              <span class="input-group-text bg-dark  text-white" id="basic-addon1"> Rs.</span>
+              <input type="text" class="form-control text-white " placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+          </div>
+          <div class="mb-2">
+            <label for="txtId" class="form-label">Qty. on Hand</label>
+            <input id="txtId" class="form-control form-control-sm bg-dark text-white" type="text" placeholder="Eg. C001"
+                aria-label="default input example">
+          </div>
+      <div class="d-flex justify-content-evenly align-items-start ">
+      <button type="submit" class="btn btn-secondary">Save</button>
+      <button type="reset" class="btn btn-secondary">Clear</button>
+      </div>
+          </div>
+        </form>
+        </div>
+      </div>
+      <div class="col-xl-7 col-12">
+        <div class="card text-white bg-dark mb-3">
+          <div class="card-header fs-4 ">List of Items</div>
+          <div class="card-body">
+            <table class="table text-white ">
+              <thead>
+                <tr>
+                  <th>Code</th>
+                  <th>Description</th>
+                  <th>Qty.</th>
+                  <th>Unit Price</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>I001</td>
+                  <td>Pen</td>
+                  <td>10</td>
+                  <td>Rs. 15.00</td>
+                  <td><i class="fas fa-trash"></i></td>
+                </tr>
+                <tr>
+                  <td>I001</td>
+                  <td>Pen</td>
+                  <td>10</td>
+                  <td>Rs. 15.00</td>
+                  <td><i class="fas fa-trash"></i></td>
+                </tr>
+                <tr>
+                  <td>I002</td>
+                  <td>Pencil</td>
+                  <td>20</td>
+                  <td>Rs. 5.00</td>
+                  <td><i class="fas fa-trash"></i></td>
+                </tr>
+                <tr>
+                  <td>I003</td>
+                  <td>Eraser</td>
+                  <td>25</td>
+                  <td>Rs. 15.00</td>
+                  <td><i class="fas fa-trash"></i></td>
+                </tr>
+                <tr>
+                  <td>I004</td>
+                  <td>Book</td>
+                  <td>30</td>
+                  <td>Rs. 45.00</td>
+                  <td><i class="fas fa-trash"></i></td>
+                </tr>
+                <tr>
+                  <td>I005</td>
+                  <td>White Paper</td>
+                  <td>1000</td>
+                  <td>Rs. 2.00</td>
+                  <td><i class="fas fa-trash"></i></td>
+                </tr>
+                <tr>
+                  <td>I006</td>
+                  <td>Correction Fluid</td>
+                  <td>25</td>
+                  <td>Rs. 150.00</td>
+                  <td><i class="fas fa-trash"></i></td>
+                </tr>
+                <tr>
+                  <td>I007</td>
+                  <td>Envelope</td>
+                  <td>150</td>
+                  <td>Rs. 2.00</td>
+                  <td><i class="fas fa-trash"></i></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <div class="b-divider"></div>
+</div>
   </body>
 
 </html>

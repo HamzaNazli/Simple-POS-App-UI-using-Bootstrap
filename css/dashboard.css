@@ -9,5 +9,10 @@
 }
 
 .card{
-    --bs-bg-opacity: .75;
+    --bs-bg-opacity: .25;
   }
+  
+.btn:focus{
+    box-shadow: none !important;
+    border: none !important;
+}
