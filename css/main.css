@@ -67,6 +67,7 @@ button:focus{
 
 table tbody tr:hover{
   background-color: #797474;
+  cursor: pointer;
 }
 
 .random{
