@@ -1,0 +1,16 @@
+.card{
+    --bs-bg-opacity: .25; 
+  }
+  
+input:focus{
+    box-shadow: none !important;
+    border-color: white !important;
+}
+
+input[type="text"]{
+    background-color: #525252 !important;
+}
+
+
+
+/*# sourceMappingURL=/manage-customers.e7495178.css.map */

@@ -11,3 +11,18 @@ input[type="search"]{
     background-color: #525252 !important;
 }
 
+@media all and (max-width:584px){
+    th:first-child, td:first-child{
+        display: none;
+    }
+    .main-sm{
+        transform: scaleX(0.95);
+    }
+}
+
+@media all and (max-width:488px){
+
+    .main-sm{
+        transform: scaleX(0.93);
+    }
+}

@@ -25,7 +25,7 @@
   <div class="d-flex ">
   <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark sidebar-with_content" style="width: 240px; height: 100vh;">
     <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-      <i class="fab fa-opencart"></i>      
+      <i class="fab fa-opencart"></i>
       <span class="fs-4">POS SYSTEM</span>
     </a>
     <hr>
@@ -64,7 +64,7 @@
   </div>
 
   <div class="d-flex flex-column flex-shrink-0 bg-dark sidebar-without_content " style="width: 4.5rem; height: 100vh;">
-    <a href="/" class="d-block p-3 link-dark text-decoration-none" title="POS SYSTEM" data-bs-toggle="tooltip" data-bs-placement="right">
+    <a href="index.html" class="d-block p-3 link-dark text-decoration-none" title="POS SYSTEM" data-bs-toggle="tooltip" data-bs-placement="right">
       <i class="fab fa-opencart"></i>
       <span class="visually-hidden">Icon-only</span>
     </a>
@@ -97,9 +97,10 @@
     </ul>
   </div>
 
-  <div class="b-divider"></div>
-  <div class="col-md-8 ms-sm-auto col-lg-9 px-md-4 align-items-center ">
-    <div class="random"></div>
+  <div class="b-divider d-none d-sm-block d-md-none d-xl-block"></div>
+  <div class="main-sm main-md col-md-8 ms-sm-auto col-lg-9  px-md-4 align-items-center ">
+    <div class="">
+    <div class="random d-sm-none d-md-block"></div>
     <div class="container">
 
       <div class="rain">
@@ -116,7 +117,7 @@
           <div></div>
         </div>
       </div>
-    
+
       <div class="rain">
         <div class="drop"></div>
         <div class="waves">
@@ -131,7 +132,7 @@
           <div></div>
         </div>
       </div>
-    
+
       <div class="rain">
         <div class="drop"></div>
         <div class="waves">
@@ -146,7 +147,7 @@
           <div></div>
         </div>
       </div>
-    
+
       <div class="rain">
         <div class="drop"></div>
         <div class="waves">
@@ -161,7 +162,7 @@
           <div></div>
         </div>
       </div>
-    
+
       <div class="rain">
         <div class="drop"></div>
         <div class="waves">
@@ -176,7 +177,7 @@
           <div></div>
         </div>
       </div>
-    
+
       <div class="rain">
         <div class="drop"></div>
         <div class="waves">
@@ -191,7 +192,7 @@
           <div></div>
         </div>
       </div>
-    
+
       <div class="rain">
         <div class="drop"></div>
         <div class="waves">
@@ -206,7 +207,7 @@
           <div></div>
         </div>
       </div>
-    
+
       <div class="rain">
         <div class="drop"></div>
         <div class="waves">
@@ -221,7 +222,7 @@
           <div></div>
         </div>
       </div>
-    
+
       <div class="rain">
         <div class="drop"></div>
         <div class="waves">
@@ -236,18 +237,19 @@
           <div></div>
         </div>
       </div>
-    
+
     </div>
+  </div>
     <div
-        class="text-white pt-3 pb-2 mb-3 border-bottom">
+        class="text-white pt-3 pb-2 mb-3 col-md-12 col-12 border-bottom text-center">
         <h1>Manage Items</h1>
     </div>
-    <form onsubmit="return false">
-    <div class="row ">
-      <div class="col-xl-5 col-12">
+
+    <div class="row align-items-start">
+      <div class="col-lg-5 col-12">
         <div class="card text-white bg-dark mb-3">
           <div class="card-header fs-4 ">Items Information</div>
-          <form>
+          <form onsubmit="return false">
           <div class="card-body">
             <div class="mb-2">
               <label for="txtId" class="form-label">Item Code</label>
@@ -279,7 +281,7 @@
         </form>
         </div>
       </div>
-      <div class="col-xl-7 col-12">
+      <div class="col-lg-7 col-12 justify-content-start">
         <div class="card text-white bg-dark mb-3">
           <div class="card-header fs-4 ">List of Items</div>
           <div class="card-body">
@@ -287,14 +289,14 @@
               <thead>
                 <tr>
                   <th>Code</th>
-                  <th>Description</th>
+                  <th><span class="long-col-desc">Description</span><span class="short-col-desc" title="Description" data-bs-toggle="tooltip" data-bs-placement="right">Desc.</span></th>
                   <th>Qty.</th>
                   <th>Unit Price</th>
                   <th></th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
+              <tbody >
+                <tr >
                   <td>I001</td>
                   <td>Pen</td>
                   <td>10</td>
@@ -356,8 +358,8 @@
         </div>
       </div>
     </div>
-  </div>  
-  <div class="b-divider"></div>
+  </div>
+  <div class="b-divider d-none d-sm-block d-md-none d-xl-block"></div>
 </div>
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

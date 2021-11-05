@@ -6,7 +6,7 @@
   "author": "Hamza Nazli <chemhamza@gmail.com>",
   "scripts": {
     "clean": "rm -rf docs",
-    "dev": "parcel serve index.html manage-customers.html --out-dir ./docs",
+    "dev": "parcel serve index.html manage-customers.html manage-items.html place-orders.html search-orders.html --out-dir ./docs",
     "build": "rm -rf docs && parcel build index.html 404.html --out-dir docs --public-url /Simple-POS-App-UI-using-Bootstrap/"
   },
   "devDependencies": {
