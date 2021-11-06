@@ -41,3 +41,9 @@
         min-height: 175px;
     }
 }
+
+@media all and (max-width: 992px){
+	footer{
+		position: fixed;
+	}
+}

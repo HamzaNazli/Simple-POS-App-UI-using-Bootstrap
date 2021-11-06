@@ -7,7 +7,7 @@ input:focus{
     border-color: white !important;
 }
 
-input[type="text"], .input-group-text{
+input[type="text"], .input-group-text, input[type="search"]{
     background-color: #525252 !important;
 }
 
@@ -35,7 +35,7 @@ input[type="text"], .input-group-text{
 @media all and (max-width:584px){
 
     .main-sm{
-        transform: scaleX(0.95);
+        transform: scaleX(0.94);
     }
 }
 
@@ -45,3 +45,4 @@ input[type="text"], .input-group-text{
         transform: scaleX(0.93);
     }
 }
+

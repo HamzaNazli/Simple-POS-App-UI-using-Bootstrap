@@ -16,7 +16,7 @@ input[type="search"]{
         display: none;
     }
     .main-sm{
-        transform: scaleX(0.95);
+        transform: scaleX(0.94);
     }
 }
 

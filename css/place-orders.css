@@ -7,16 +7,25 @@ input:focus{
     border-color: white !important;
 }
 
-input[type="text"], input[type="number"]{
+input[type="text"], input[type="number"],input[type="search"]{
     background-color: #525252 !important;
 }
+
+    .custom-scrollbar {
+        height: 350px;
+        position: relative;
+        overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+        display: block;
+    }
 
 @media all and (max-width:584px){
     th:first-child, td:first-child{
         display: none;
     }
     .main-sm{
-        transform: scaleX(0.95);
+        transform: scaleX(0.94);
     }
 }
 
@@ -25,4 +34,10 @@ input[type="text"], input[type="number"]{
     .main-sm{
         transform: scaleX(0.93);
     }
+}
+
+@media all and (max-width: 1092px){
+	footer{
+		position: relative;
+	}
 }

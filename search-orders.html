@@ -241,15 +241,16 @@
         <h1>Search Orders</h1>
     </div>
     <div class="row align-items-center">
-      <div class="d-flex mb-3 px-5 ">
-        <form class="w-100 me-3 ">
-          <input type="search" class="form-control bg-dark text-white" placeholder="Search..." aria-label="Search">
-        </form>
-      </div>
+
 
       <div class="col-sm-12 col-12">
         <div class="card text-white bg-dark mb-3">
-          <div class="card-header fs-4 ">List of Orders</div>
+          <div class="row justify-content-start">
+            <div class="card-header table-card-header fs-4 ms-3 col-11 col-sm-5">List of Orders</div>
+            <form class="col-11 col-sm-6 ms-3 ms-sm-0">
+              <input type="search" class="form-control bg-dark text-white" placeholder="Search..." aria-label="Search">
+            </form>
+            </div>
           <div class="card-body ">
             <table class="table text-white ">
               <thead>
@@ -318,13 +319,38 @@
               </tbody>
             </table>
           </div>
+          <div class="card-footer">
+            <ul class="pagination justify-content-center">
+              <li class="page-item disabled">
+                <a class="page-link"><<</a>
+              </li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item">
+                <a class="page-link" href="#">>></a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="row ">
+    <footer class="text-white pt-3">
+      <p> Copyright &copy; 2021 Hamza Nazli. All Rights Reserved.</p>
+    </footer>
+    </div>
+  
   </div>
+  
   <div class="b-divider d-none d-sm-block d-md-none d-xl-block"></div>
 
+  
+  
 </div>
+
+
 
 <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/main.js"></script>

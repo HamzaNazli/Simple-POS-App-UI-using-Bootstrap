@@ -7,7 +7,24 @@ input:focus{
     border-color: white !important;
 }
 
-input[type="text"]{
+input[type="text"],input[type="search"]{
     background-color: #525252 !important;
 }
 
+/* @media all and (min-width: 467px){
+    .table-card-header{
+        font-size: x-large;
+    }
+}
+
+@media all and (max-width: 467px){
+    .table-card-header{
+        font-size: larger;
+    }
+}
+
+@media all and (max-width: 400px){
+    .table-card-header{
+        font-size: large;
+    }
+} */

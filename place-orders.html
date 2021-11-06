@@ -305,9 +305,15 @@
       </div>
       <div class="col-lg-7 col-12">
         <div class="card text-white bg-dark mb-3">
-          <div class="card-header fs-4">ORDER ID: <span>OD001</span></div>
+          <div class="row justify-content-start">
+            <div class="card-header ms-3 fs-4 col-11 col-sm-5 ">ORDER ID: <span>OD001</span></div>
+            <form class=" col-11 col-sm-6 ms-3 ms-sm-0">
+              <input type="search" class="form-control bg-dark text-white" placeholder="Search..." aria-label="Search">
+            </form>
+            </div>
           <div class="card-body">
-            <table class="table text-white">
+            <div class="table-wrapper-scroll-y custom-scrollbar">
+            <table class="table text-white " >
               <thead>
                 <tr>
                   <th>Code</th>
@@ -376,23 +382,30 @@
                   <td><i class="fas fa-trash"></i></td>
                 </tr>
                 <tr>
-                  <td>I001</td>
-                  <td>Pen</td>
-                  <td>5</td>
-                  <td>50</td>
-                  <td>250</td>
+                  <td>I006</td>
+                  <td>Correction Fluid</td>
+                  <td>1</td>
+                  <td>150</td>
+                  <td>150</td>
                   <td><i class="fas fa-trash"></i></td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <div class="d-flex justify-content-evenly">
-          <div class="card-footer fs-4 ">TOTAL: Rs.<span>1500.00</span></div>
-          <button type="button" class="btn btn-secondary">Place Order</button>
+          </div>
+          <div class="row justify-content-center-sm">
+          <div class="card-footer fs-4 text-center">TOTAL: Rs.<span>1500.00</span></div>
+          <button type="button" class="btn btn-secondary col-5">Place Order</button>
           </div>
         </div>
       </div>
     </div>
+    <div class="row ">
+      <footer class="text-white pt-3">
+        <p> Copyright &copy; 2021 Hamza Nazli. All Rights Reserved.</p>
+      </footer>
+      </div>
+  
   </div>
   <div class="b-divider d-none d-sm-block d-md-none d-xl-block"></div>
   </div>

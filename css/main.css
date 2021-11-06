@@ -6,6 +6,7 @@
 
 body{
   background-color: #525252;
+  
 }
 
 .fa-opencart{
@@ -31,11 +32,25 @@ body{
 }
 
 .sidebar-without_content, .sidebar-with_content{
-  --bs-bg-opacity: .25;
-  top: 0;
-  bottom: 0;
-  position: sticky;
+	--bs-bg-opacity: .25;
+	top: 0;
+	bottom: 0;
+	position: sticky;
+	background: rgba( 255, 255, 255, 0.25 );
+	box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 0 50px 50px 0;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
 } 
+
+.card{
+	box-shadow: 0 8px 32px 0 rgba( 255, 255, 255, 0.37 );
+	backdrop-filter: blur( 4px );
+	-webkit-backdrop-filter: blur( 4px );
+	border-radius: 10px 50px 50px 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 
 @media all and (max-width:768px){
   .sidebar-with_content{
@@ -44,6 +59,7 @@ body{
 
   .sidebar-without_content{
     display: block !important;
+	border-radius: 0 30px 30px 0;
   }
 
   .fab, .fas{
@@ -92,6 +108,14 @@ table tbody tr:hover{
 	.short-col-desc{
 		display: block;
 	}
+}
+
+thead th, tbody td{
+	text-align: center;
+}
+
+table .fa-trash:hover{
+	color: tomato;
 }
 
 .random{
@@ -277,7 +301,7 @@ table tbody tr:hover{
 }
 
 
-.splash{
+/* .splash{
 	position: absolute;
 	top: 10%;
 	bottom: 50%;
@@ -319,7 +343,7 @@ table tbody tr:hover{
 	100%{
 		transform: scale(1, 0);
 	}
-}
+} */
 
 .particles > div{
 	position: absolute;	
@@ -401,4 +425,46 @@ table tbody tr:hover{
 	100%{
 		transform: translate(50px, 0px) scale(0.1);
 	}
+}
+
+footer {
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+  }
+
+  @media all and (max-width: 992px){
+	footer{
+		position: relative;
+	}
+}
+
+/* Pagination*/
+.pagination > li > a
+{
+    background-color: #525252;
+    color: white;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #5a5a5a;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a
+{
+    color: white;
+    background-color: #525252 !Important;
+    border: solid 1px #525252 !Important;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #5A4181 !Important;
+    border: solid 1px #5A4181;
 }
