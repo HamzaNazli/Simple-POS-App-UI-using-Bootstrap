@@ -306,14 +306,14 @@
       <div class="col-lg-7 col-12">
         <div class="card text-white bg-dark mb-3">
           <div class="row justify-content-start">
-            <div class="card-header ms-3 fs-4 col-11 col-sm-5 ">ORDER ID: <span>OD001</span></div>
+            <div class="card-header ms-3 fs-4 col-11 col-sm-5 print-content">ORDER ID: <span>OD001</span></div>
             <form class=" col-11 col-sm-6 ms-3 ms-sm-0">
               <input type="search" class="form-control bg-dark text-white" placeholder="Search..." aria-label="Search">
             </form>
             </div>
           <div class="card-body">
             <div class="table-wrapper-scroll-y custom-scrollbar">
-            <table class="table text-white " >
+            <table class="table text-white print-content" >
               <thead>
                 <tr>
                   <th>Code</th>
@@ -389,13 +389,29 @@
                   <td>150</td>
                   <td><i class="fas fa-trash"></i></td>
                 </tr>
+                <tr>
+                  <td>I006</td>
+                  <td>Correction Fluid</td>
+                  <td>1</td>
+                  <td>150</td>
+                  <td>150</td>
+                  <td><i class="fas fa-trash"></i></td>
+                </tr>
+                <tr>
+                  <td>I006</td>
+                  <td>Correction Fluid</td>
+                  <td>1</td>
+                  <td>150</td>
+                  <td>150</td>
+                  <td><i class="fas fa-trash"></i></td>
+                </tr>
               </tbody>
             </table>
           </div>
           </div>
           <div class="row justify-content-center-sm">
-          <div class="card-footer fs-4 text-center">TOTAL: Rs.<span>1500.00</span></div>
-          <button type="button" class="btn btn-secondary col-5">Place Order</button>
+          <div class="card-footer fs-4 text-center print-content">TOTAL: Rs.<span class="total-amount">1500.00</span></div>
+          <button type="button" class="btn btn-secondary col-5" onclick="window.print()">Place Order</button>
           </div>
         </div>
       </div>

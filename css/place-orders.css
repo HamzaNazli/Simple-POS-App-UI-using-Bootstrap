@@ -41,3 +41,31 @@ input[type="text"], input[type="number"],input[type="search"]{
 		position: relative;
 	}
 }
+
+@media print {
+
+    body *{
+        visibility: hidden;
+    }
+
+    .print-content, .print-content *{
+        visibility: visible;
+        
+    }
+
+    table thead tr th:nth-child(6),table tbody tr td:nth-child(6){
+        display: none;
+    }
+
+    .custom-scrollbar {
+        visibility: visible;
+        height: max-content;
+        width: fit-content;
+        position: relative;
+        overflow: auto;
+    }
+    .table-wrapper-scroll-y {
+        visibility: visible;
+        display: block;
+    }
+  }
